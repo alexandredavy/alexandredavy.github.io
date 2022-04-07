@@ -63,13 +63,19 @@ header nav ul *
 
 .intro .textboit
 {
-	opacity: 0.9;
+	opacity: 0.8;
 	width: 800px;
 	height: 300px;
 	background-color: white;
 	position: absolute;
 	top: 500px;
 	left: 450px;
+	transition-duration: 600ms;
+}
+
+.intro .textboit:hover
+{
+	opacity: 0.9;
 }
 
 .intro .textboit .text
@@ -94,4 +100,22 @@ header nav ul *
 {
 	width: 35%;
 	margin-right: 3%;
+}
+
+.mesprojet .pfhMbot
+{
+	display: flex;
+	margin-top: 100px;
+}
+
+.mesprojet .pfhMbot div
+{
+	width: 59%;
+	margin-right: 3%;
+}
+
+.mesprojet .pfhMbot img
+{
+	width: 35%;
+	margin-left: 3%;
 }
